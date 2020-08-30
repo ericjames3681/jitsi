@@ -1,5 +1,25 @@
 import React from "react";
 
+// const domain = "meet.jit.si";
+// const options = {
+//   roomName: "JitsiMeetAPIExample",
+//   // width: 700,
+//   // height: 700,
+//   // parentNode: document.querySelector("#meet"),
+//   // devices: {
+//   //   audioInput: "<deviceLabel>",
+//   //   audioOutput: "<deviceLabel>",
+//   //   videoInput: "<deviceLabel>",
+//   // },
+//   // configOverwrite: { startWithAudioMuted: true },
+//   // interfaceConfigOverwrite: { filmStripOnly: true },
+//   // userInfo: {
+//   //   email: "email@jitsiexamplemail.com",
+//   //   displayName: "John Doe",
+//   // },
+// };
+// const api = new window.JitsiMeetExternalAPI(domain, options);
+
 const VideoConference = () => {
   const jitsiContainerId = "jitsi-container-id";
   const [jitsi, setJitsi] = React.useState({});
