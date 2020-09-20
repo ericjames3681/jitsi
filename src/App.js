@@ -1,6 +1,6 @@
 import React from "react";
-import VideoConference from "./VideoConference";
+import Page from "./components/Page";
 
 export default function App() {
-  return <VideoConference />;
+  return <Page />;
 }
